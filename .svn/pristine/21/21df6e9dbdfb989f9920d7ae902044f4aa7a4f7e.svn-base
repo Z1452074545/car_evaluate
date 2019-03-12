@@ -1,0 +1,4 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="css/common.min.css"><link rel="stylesheet" href="css/get_deta.min.css"><title>选择时间</title></head><body><!-- 选择时间 start --><div class="max_width brank_alls"><div class="title"><span>返回</span> 选择时间</div></div><div class="max_width deta_box"><div class="deta"><!-- <div class="deta_year">2018</div>
+            <div class="deta_month" style="display:block">
+                <div class="deta_month_son">1月</div>
+            </div> --></div></div><script src="js/rem.min.js"></script><script src="js/jquery-2.1.4.min.js"></script><script src="js/get_deta.min.js"></script></body></html>

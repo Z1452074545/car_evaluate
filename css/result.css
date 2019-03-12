@@ -1,0 +1,354 @@
+body{
+    background: #fff;
+}
+.max_width {
+    max-width: 750px; 
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 200px !important;
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .header {
+        height: 40px !important;
+
+    }
+
+    .header h1 {
+        font-size: 16px !important;
+        line-height: 40px !important;
+    }
+
+    .icon-back {
+        display: inline-block;
+        font-size: 14px !important;
+        line-height: 40px !important;
+        width: 65px !important;
+        height: 45px !important;
+        text-align: center !important;
+    }
+
+    .navgt_item {
+        font-size: 16px !important;
+        float: left;
+        width: 33% !important;
+        height: 40px !important;
+        text-align: center;
+        line-height: 40px !important;
+        position: relative;
+    }
+}
+
+.res_cont {
+    width: 95%;
+    margin: 10px auto;
+    height: 180px;
+    /* background: #fff; */
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 2px #ccc; */
+    position: relative;
+}
+
+.res_cont_txt {
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.navgt {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 10%;
+}
+
+.navgt div {
+    float: left;
+    width: 33%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+
+.navgt_item_bot {
+    display: inline-block;
+    height: 5px !important;
+    width: 30px !important;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -15px;
+}
+
+.navgt_item_bot_active {
+    background: #4597f4;
+}
+
+.swiper-container {
+    margin-top: 15px;
+}
+
+.res_cont img {
+    width: 100%;
+    height: 100%;
+}
+.txt_cont {
+    width: 100%;
+    height: 200px !important;
+    overflow: hidden;
+}
+.txt_cont_chile{
+    width: 90%;
+    height: 160px;
+    background: #4899f4;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.txt_title{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 28px;
+    color: #fff;
+}
+.txt_t_t{
+    width: 100%;
+    height: 60%;
+}
+.txt_t_t div{
+    float: left;
+    width: 50%;
+    height: 65%;
+    text-align: center;  
+    color: #fff;
+}
+.txt_t_left{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.txt_t_left div{
+    width: 100%;
+}
+.txt_t_left div:nth-child(1){
+    font-size: 22px; 
+}
+.txt_t_left div:nth-child(2){
+    font-size: 18px; 
+}
+.txt_t_right{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.txt_t_right div{
+    width: 100%;
+}
+.txt_t_right div:nth-child(1){
+    font-size: 22px; 
+}
+.txt_t_right div:nth-child(2){
+    font-size: 18px; 
+}
+
+.price{
+    width: 78%;
+    height: 2rem;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.price_title{
+    text-align: center;
+    line-height: 0.3rem;
+    width: 100%;
+    height:0.3rem;
+}
+.price_box {
+    width: 100%;
+    height: 1.2rem;
+    margin-top: 0.3rem;
+    position: relative;
+}
+#price_box{
+    width: 100%;
+    height: 100%;
+}
+.fontSize_price{
+    font-size: 14px;
+}
+.price_left{
+    width: 100%;
+    position: absolute;
+    top: -0.2rem;
+    left: -0.05rem;
+    text-align: left;
+}
+.price_center{
+    width: 100%;
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+    text-align: center;
+}
+.price_right{
+    width: 100%;
+    position: absolute;
+    top: 0.65rem;
+    left: 0.2rem;
+    text-align: right;
+}
+.price_min{
+    width: 55%;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.46rem;
+    right: -0.06rem;
+}
+#price_min{
+    width: 100%;
+    height: 100%;
+}
+.col_grey{
+    color: #8b9097;
+}
+.col_bule{
+    color: #4b9bf5;
+}
+.tendency{
+    width: 78%;
+    height: 2rem;
+    margin: 0 0 0.5rem 0.2rem;
+    
+}
+.tendency_father{
+    position: relative;
+
+}
+.tendency_title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.3rem;
+    background: #fff;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 18px;
+    z-index: 99999;
+}
+.but{
+    width: 90%;
+    height: 1.5rem;
+    margin: 0 auto;
+    /* background: red; */
+}
+.but_chile{
+    width: 100%;
+    height: 0.4rem;
+    background: #4597f4;
+    text-align: center;
+    color: #fff;
+    line-height: 0.4rem;
+    font-size: 0.18rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.loans{
+    margin-top: 0.2rem;
+}
+.lay_hint{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -25%;
+    max-width: 50%;
+    /* margin: 70px auto 0; */
+    z-index: 9999;
+    font-size: 16px;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px; 
+    color: #fff;
+    text-align: center;
+}
+.sell_truck_pop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background: rgba(0,0,0,0.3);
+}
+.pop_box{
+    width: 90%;
+    height: 2.1rem;
+    background: #fff;
+    position: fixed;
+    top: 1.8rem;
+    left: 50%;
+    margin-left: -45%;
+    border-radius: 8px; 
+    overflow: hidden;
+}
+.but_x{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    color: #c9c9c9;
+}
+.pop_title{
+    font-size: 16px;
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.terrace_type{
+    margin-top: 20px;
+    width: 95%;
+    overflow: hidden;
+}
+.terrace_type div{
+    width: 33.3%;
+    height: 48px;
+    float: left;
+}
+.terrace_type div img{
+    width: 100%;
+    height: 100%;
+    display: block ;
+}
+.but_affirm{
+    width: 80%;
+    height: 40px;
+    background: #4597f4;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    margin: 35px auto 0;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px #ccc;
+}

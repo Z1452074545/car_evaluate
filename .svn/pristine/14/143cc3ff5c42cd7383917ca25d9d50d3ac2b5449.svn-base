@@ -1,0 +1,265 @@
+* {
+    touch-action: none;
+}
+
+html,
+body {
+    /* font-size: 0.24rem; */
+    width: 100%;
+    height: 100%;
+    background: rgba(243, 245, 248, 1);
+}
+
+.max_width {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: 210px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.banner_box {
+    width: 93%;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.banner_box img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .max_width div{
+    float: left;
+} */
+.region {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    /* margin-top: 5px; */
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.noe_region {
+    margin-top: 10px;
+}
+
+.max_width_left {
+    float: left;
+    margin-left: 5%;
+    font-size: 19px;
+}
+
+#but_car_type {
+    margin-left: 5%;
+    width: 60%;
+
+}
+
+/* ............................ 48行 */
+.max_width_cont {
+    float: left;
+    margin-left: 10%;
+    width: 55%;
+    overflow: hidden;
+}
+
+/* #car_type{
+    text-align: left;
+} */
+/* .gundong {
+    width: 100%;
+    background: red;
+    height: 45px;
+} */
+
+/* .gundong_d {
+    animation: gundong 8s linear infinite;
+} */
+
+@keyframes gundong {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: -300px;
+    }
+}
+
+.max_width_cont input {
+    width: 100%;
+    font-size: 18px;
+    appearance: none;
+    outline: none;
+    border: 0 none;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.max_width_right {
+    font-size: 30px !important;
+    color: #ccc;
+    float: right;
+}
+
+/* .car_type {
+    margin-left: 18.5%;
+} */
+
+.car_type_pop {
+    /* max-width: 750px; */
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* left: 50%;
+    margin-left: -207px; */
+}
+
+.mileage {
+    width: 40%;
+}
+
+.auth_code_c {
+    width: 40%;
+    height: 100%;
+    margin-left: 14.5%;
+}
+
+.auth_code_r {
+    width: 12%;
+    height: 25px;
+    /* background: #4798f4; */
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px !important;
+    margin: 2px 5px 0 0;
+    color: #fff;
+}
+
+.auth_code_r input {
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    appearance: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    background: #4798f4;
+    /* line-height: 25px; */
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px !important;
+    margin: 8px 5px 0 0;
+    color: #fff;
+}
+
+.code_back {
+    background: #ccc !important;
+}
+
+.footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 110px;
+}
+
+.footer img {
+    width: 100%;
+    height: 100%;
+}
+
+.evaluate {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0 5%;
+    margin-top: 40px;
+}
+
+.but_evaluate {
+    width: 100%;
+    height: 60px;
+    background: #4597f4;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    font-size: 22px;
+}
+
+.but_buyCars {
+    width: 100%;
+    height: 45px;
+    background: #4597f4;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 0.2rem;
+}
+
+/* picker */
+.weui-picker-modal .picker-item {
+    font-size: 20px !important;
+}
+
+.toolbar .title {
+    font-size: 18px !important;
+}
+
+.toolbar .picker-button {
+    font-size: 18px !important;
+}
+
+.col_green {
+    color: #AAAAAA;
+}
+
+.get_deta {
+    font-size: 19px;
+    text-align: right;
+}
+
+.wgl {
+    /* background: red; */
+    width: 20%;
+    height: 1rem;
+    font-size: 16px !important;
+}
+
+.but_evaluate {
+    position: relative;
+}
+
+.spans_img {
+    position: absolute;
+    top: 13px;
+    left: 15%;
+    width: 24px !important;
+    height: 34px !important;
+    /* background: red; */
+    z-index: 999;
+}
+
+.spans_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

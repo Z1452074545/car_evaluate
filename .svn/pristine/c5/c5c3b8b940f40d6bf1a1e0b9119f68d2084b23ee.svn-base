@@ -1,0 +1,23 @@
+$(function () {
+    //点击返回
+    $('.title span').on('click', function () {
+        window.location.href = './index.html'
+    })
+    //读取首页缓存
+    var storage = window.localStorage; //定义localStorage
+    var req_date = storage.getItem('req_date') || '';
+    if (!req_date) {
+        console.log('木得缓存');
+
+    } else {
+        req_date = JSON.parse(req_date);
+        // 读取到的数据渲染到页面
+        $('.car_title').html(req_date.car_info.pinpai+' '+req_date.car_info.series);
+        $('.city').html(req_date.city);
+        $('.miles').html(req_date.miles+'万公里');
+        $('.regdate').html(req_date.regdate);
+        console.log(req_date);
+    }
+
+
+})

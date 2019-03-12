@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.max_width {
+    max-width: 750px;
+    margin: 0 auto;
+}
+body,html{
+    font-family: 'SimHei';
+}
+.loading_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 242, 242, 0.6);
+    z-index: 99999999;
+
+}
+
+.loading {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin-left: -18px;
+    animation: zhuan 2s linear infinite;
+}
+
+.loading img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+.loading_title{
+    width: 100%;
+    height: 1rem;
+    font-size: 20px;
+    color: #ff3b53;
+    text-align: center;
+    line-height: 1rem;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-weight: bold;
+}
+@keyframes zhuan {
+
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(90deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(270deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="jquery-weui/dist/lib/weui.min.css">
+    <link rel="stylesheet" href="jquery-weui/dist/css/jquery-weui.css">
+    <link rel="stylesheet" href="jquery-weui/dist/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>二手车评估</title>
+</head>
+
+<body>
+    <!-- banner图 -->
+    <div class="banner max_width">
+        <div class="banner_box">
+            <img src="images/car_banner.png" alt="" srcset="">
+        </div>
+
+    </div>
+    <!-- 上牌地区 -->
+    <!-- <div class="region max_width">
+        <div class="max_width_left">上牌地区</div>
+        <div class="max_width_cont">
+            <input type="text" id="city_inp" value="" placeholder="请选择" />
+        </div>
+        <div class="max_width_right">></div>
+    </div> -->
+    <!-- 车型 -->
+    <div class="region max_width noe_region ">
+        <div class="max_width_left">车辆型号</div>
+        <div class="max_width_cont car_type" id="but_car_type">
+            <div class="gundong">
+                <input type="text" id="car_type" value="" readonly="readonly" placeholder="请选择" />
+            </div>
+        </div>
+        <div class="max_width_right">></div>
+    </div>
+    <!-- 上牌时间 -->
+    <div class="region max_width">
+        <div class="max_width_left">首次上牌</div>
+        <div class="max_width_cont">
+            <div class="get_deta col_green">请选择</div>
+        </div>
+        <div class="max_width_right">></div>
+    </div>
+    <!-- 车型弹出层 end-->
+    <!-- 行驶里程 -->
+    <div class="region max_width">
+        <div class="max_width_left">行驶里程</div>
+        <div class="max_width_cont mileage">
+            <input type="text" id="car_mileage" placeholder="请输入" maxlength="2" />
+        </div>
+        <div class="max_width_right wgl">万公里</div>
+    </div>
+    <!-- 联系方式 -->
+    <div class="region max_width">
+        <div class="max_width_left">联系方式</div>
+        <div class="max_width_cont">
+            <input type="text" id="phone" placeholder="请输入" maxlength="11"/>
+
+        </div>
+    </div>
+  
+    <!-- 车型弹出层 start-->
+    <div id="car_type_pop" class="car_type_pop" style="display:none">
+
+    </div>
+   
+    <!-- but 开始估价 -->
+    <div class="evaluate max_width">
+
+        <div class="but_evaluate">
+            <div class="spans_img">
+                <img src="./images/sub.png" alt="" srcset="">
+            </div>
+            生成车辆评估报告
+        </div>
+        <!-- <div class="but_buyCars">我要买车</div> -->
+    </div>
+
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <!-- <script src="js/rem.js"></script> -->
+    <script src="jquery-weui/dist/js/jquery-weui.min.js"></script>
+    <script src="jquery-weui/dist/js/swiper.min.js"></script>
+    <script src="jquery-weui/dist/js/city-picker.min.js"></script>
+    <script src="jquery-weui/dist/lib/fastclick.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

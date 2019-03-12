@@ -1,0 +1,258 @@
+.title {
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 20px;
+    color: #040404;
+    position: relative;
+    background: #fff;
+}
+/* .body_fixed{
+    position: fixed !important;
+    top: 0 !important;
+    left:0 !important;
+} */
+.title span {
+    display: block;
+    position: absolute;
+    width: 60px;
+    top: 5px;
+    left: 5px;
+    line-height: 0.9rem;
+    font-size: 18px;
+    color: #040404;
+
+}
+
+.valuation_banner {
+    width: 90%;
+    height: 3.2rem;
+    margin: 0 auto;
+
+}
+
+.valuation_banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.car_title {
+    width: 100%;
+    height: 1.68rem;
+    background: url("../images/carmin_bg.png");
+    background-size: 100% 100%;
+}
+
+.car_tit_cont {
+    width: 94%;
+    height: 2rem;
+    background: #fff;
+    margin: -17px auto 0;
+    box-shadow: 3px 2px 9px #ccc;
+    border-radius: 0 0 10px 10px;
+}
+
+.car_title {
+    text-align: center;
+    line-height: 1.58rem;
+    color: #fff;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding:0 20px;
+}
+
+.car_tit_cont_son {
+    float: left;
+    width: 25%;
+    height: 1.4rem;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+    margin-top: 0.3rem;
+}
+
+.car_tit_cont_son:nth-child(4) {
+    border-right: none;
+}
+
+.car_tit_cont_son div {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 18px;
+}
+
+.cont_son_top {
+    color: #eb8700;
+    font-size: 19px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cont_son_bottom {
+    color: #b8b8b8;
+}
+
+.car_box {
+    margin-top: 10px;
+    position: relative;
+}
+
+.car_title_down {
+    position: absolute;
+    top: 39px;
+    right: 33px;
+    width: 14px;
+    height: 14px;
+}
+
+.car_title_down img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.fgx_green {
+    width: 100%;
+    height: 0.3rem;
+    background: #f3f5f8;
+
+}
+
+.anticipated {
+    width: 100%;
+    height: 2.5rem;
+}
+
+.anticipated_title {
+    width: 92%;
+    height: 1.8rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.anticipated_title div {
+    float: left;
+    height: 1.7rem;
+    font-size: 19px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(53, 53, 53, 1);
+    line-height: 1.7rem;
+}
+
+.anticipated_title_left {
+    width: 30%;
+
+}
+
+.anticipated_title_right {
+    width: 69%;
+    text-align: right;
+}
+
+.anticipated_title_right span {
+    font-size: 32px !important;
+    color: rgba(65, 117, 5, 1);
+}
+
+.anticipated_cont {
+    width: 92%;
+    height: 0.7rem;
+    margin: 0 auto;
+    text-align: right;
+    line-height: 0.7rem;
+    font-size: 16px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1);
+}
+
+.anticipated_title_right input {
+    border: none;
+    outline: 0 none;
+    text-align: right;
+    height: 1.7rem;
+    font-size: 19px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(53, 53, 53, 1);
+    line-height: 1.7rem;
+    background: transparent;
+}
+
+.footer_img {
+    width: 100%;
+    height: 2.8rem;
+}
+
+.footer_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.sell_car {
+    width: 100%;
+    height: 1.6rem;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    background: #f4f6f9;
+}
+
+.sell_but {
+    width: 95%;
+    height: 0.9rem;
+    margin: 0.3rem auto ;
+    background: linear-gradient(137deg, rgba(255, 144, 50, 1) 0%, rgba(255, 66, 66, 1) 100%);
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height:0.9rem;
+}
+.line_shang_pop{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(242,242,242,0.6);
+}
+.line_shang_pop_son{
+    width: 100%;
+    height:4.5rem;
+    position: absolute;
+    top: 15%;
+    left:0;
+
+}
+.line_shang_pop_son img{
+    display:block;
+    width: 100%;
+    height:100%;
+}
+.tit_pop{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    margin-left:-1.1rem;
+    width: 2.2rem;
+    height:0.6rem;
+    z-index: 99999;
+    font-size:18px;
+    background: #1e1e1e;
+    color:#fff;
+    text-align: center;
+    line-height:0.6rem;
+    border-radius: 5px;
+}
